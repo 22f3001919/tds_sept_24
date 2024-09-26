@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>XPath Practice Page</title>
+</head>
+<body>
+    <h1>XPath Query Practice</h1>
+
+    <div id="products">
+        <h2>Products</h2>
+        <ul>
+            <li class="product" data-id="101" data-category="electronics" data-price="299.99">
+                <span class="name">Smartphone</span> - <span class="brand">Brand A</span>
+            </li>
+            <li class="product" data-id="102" data-category="appliances" data-price="99.99">
+                <span class="name">Blender</span> - <span class="brand">Brand B</span>
+            </li>
+            <li class="product" data-id="103" data-category="furniture" data-price="499.99">
+                <span class="name">Sofa</span> - <span class="brand">Brand C</span>
+            </li>
+            <li class="product" data-id="104" data-category="electronics" data-price="199.99">
+                <span class="name">Headphones</span> - <span class="brand">Brand D</span>
+            </li>
+        </ul>
+    </div>
+
+    <div id="employees">
+        <h2>Employees</h2>
+        <table>
+            <thead>
+                <tr>
+                    <th>ID</th>
+                    <th>Name</th>
+                    <th>Department</th>
+                    <th>Salary</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr data-id="201" data-department="sales">
+                    <td>201</td>
+                    <td>John Doe</td>
+                    <td>Sales</td>
+                    <td>$55,000</td>
+                </tr>
+                <tr data-id="202" data-department="marketing">
+                    <td>202</td>
+                    <td>Jane Smith</td>
+                    <td>Marketing</td>
+                    <td>$65,000</td>
+                </tr>
+                <tr data-id="203" data-department="engineering">
+                    <td>203</td>
+                    <td>Emily Johnson</td>
+                    <td>Engineering</td>
+                    <td>$85,000</td>
+                </tr>
+            </tbody>
+        </table>
+    </div>
+
+    <div id="articles">
+        <h2>Articles</h2>
+        <article data-id="301">
+            <h3>Understanding XPath Queries</h3>
+            <p>XPath is a language used to select nodes in an XML document.</p>
+        </article>
+        <article data-id="302">
+            <h3>IMPORTXML in Google Sheets</h3>
+            <p>Google Sheets provides the IMPORTXML function to extract data from structured web pages.</p>
+        </article>
+        <article data-id="303">
+            <h3>Advanced CSS Selectors</h3>
+            <p>Learn how to use advanced CSS selectors like `nth-child` and more.</p>
+        </article>
+    </div>
+</body>
+</html>
